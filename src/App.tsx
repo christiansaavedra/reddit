@@ -36,10 +36,11 @@ const App = (): JSX.Element => {
           <Post
             author={data.author}
             created={data.created}
+            preview={data.preview}
             num_comments={data.num_comments}
             thumbnail={data.thumbnail}
             title={data.title}
-            url={data.url}
+            visited={data.visited}
           />
         ))}
     </div>
